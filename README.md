@@ -45,7 +45,7 @@ Built with the [MRST (MATLAB Reservoir Simulation Toolbox)](https://www.sintef.n
 
 At timestep 10, the injected fluids have migrated through the reservoir, displacing oil toward the producer.
 
-![Water_CO₂](Water_CO₂ _t10.png)
+![Water_CO₂](images/Water_CO2_t10.png)
 
 - Left: Water Saturation
 - Middle: Oil Saturation
