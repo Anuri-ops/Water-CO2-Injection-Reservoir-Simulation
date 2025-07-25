@@ -1,4 +1,4 @@
-# Reservoir Engineering Simulation – Water & CO₂ Injection (MRST)
+# Water & CO₂ Injection (MRST)
 
 This project simulates **Enhanced Oil Recovery (EOR)** in a synthetic 2D reservoir using simultaneous **water** and **CO₂ injection**.
 
@@ -6,7 +6,7 @@ Built with the [MRST (MATLAB Reservoir Simulation Toolbox)](https://www.sintef.n
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Model a synthetic reservoir with basic rock and fluid properties.
 - Inject water and CO₂ from different locations.
@@ -15,7 +15,7 @@ Built with the [MRST (MATLAB Reservoir Simulation Toolbox)](https://www.sintef.n
 
 ---
 
-## 🛠️ Model Setup
+##  Model Setup
 
 - **Grid**: 60 × 40 cells (600 × 400 m)
 - **Cell Size**: 10 × 10 m
@@ -29,7 +29,7 @@ Built with the [MRST (MATLAB Reservoir Simulation Toolbox)](https://www.sintef.n
 
 ---
 
-## 🔁 Simulation Strategy
+##  Simulation Strategy
 
 - **Initial Pressure**: 100 bar
 - **Initial Saturation**: 100% oil-filled
@@ -41,7 +41,7 @@ Built with the [MRST (MATLAB Reservoir Simulation Toolbox)](https://www.sintef.n
 
 ---
 
-## 📊 Result – Time Step 10
+##  Result – Time Step 10
 
 At timestep 10, the injected fluids have migrated through the reservoir, displacing oil toward the producer.
 
@@ -53,7 +53,7 @@ At timestep 10, the injected fluids have migrated through the reservoir, displac
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Install MRST 2025a and ensure these modules are loaded:
    ```matlab
@@ -63,15 +63,7 @@ At timestep 10, the injected fluids have migrated through the reservoir, displac
 
 ---
 
-## 📁 Files
-
-- `water_co2_injection_simulation.m`: Main simulation script
-- `Water_CO₂ _t10.png`: Final saturation plots
-- `README.md`: Project overview
-
----
-
-## 📌 Notes
+##  Notes
 
 - Uses **ThreePhaseBlackOilModel** from MRST.
 - Ideal for **portfolio, academic demonstrations**, or **interviews** in upstream oil & gas.
