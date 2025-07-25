@@ -41,7 +41,7 @@ Built with the [MRST (MATLAB Reservoir Simulation Toolbox)](https://www.sintef.n
 
 ---
 
-##  Result – Time Step 10
+## Result – Time Step 10
 
 At timestep 10, the injected fluids have migrated through the reservoir, displacing oil toward the producer.
 
